@@ -219,3 +219,7 @@ updateStrategy: RollingUpdate
 # Only edit these if you know what you're doing
 nameOverride: ""
 fullnameOverride: ""
+
+kube-state-metrics:
+  podSecurityPolicy:
+    enabled: true
